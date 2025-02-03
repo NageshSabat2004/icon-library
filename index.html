@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Icon Library Example</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NageshSabat2004/icon-library@v1.0.0/css/icons.css">
-    <style>
-        i {
-            color: blue; /* Custom color */
-            font-size: 50px; /* Custom size */
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NageshSabat2004/icon-library@refs/heads/main/css/icons.css">
+   <style>
+    .custom-icon {
+      font-size: 40px;
+      color: purple;
+    }
+  </style>
 </head>
 <body>
-    <i class="icon icon-home"></i>
-    <i class="bb-home"></i>
-    <i class="bb-user"></i>
-    <i class="bb-settings"></i>
+    <h1>Icon Library Example</h1>
+
+  <!-- Default icon -->
+  <p>Default Home Icon:</p>
+  <i class="icon icon-home"></i>
+
+  <!-- Icon with utility classes -->
+  <p>Large Red User Icon:</p>
+  <i class="icon icon-user icon-large icon-red"></i>
+
+  <!-- Icon with custom styles -->
+  <p>Custom Settings Icon:</p>
+  <i class="icon icon-settings custom-icon"></i>
 </body>
 </html>
