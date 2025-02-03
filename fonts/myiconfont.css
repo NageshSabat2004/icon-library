@@ -1,22 +1,30 @@
 @font-face {
-    font-family: 'MyIconFont';
-    src: url('myiconfont.woff2') format('woff2'),
-         url('myiconfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+/* fontello.css */
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.woff2') format('woff2'),
+       url('../fonts/fontello.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.bb-home::before {
-    font-family: 'MyIconFont';
-    content: '\e900'; /* Unicode for the home icon */
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.bb-user::before {
-    font-family: 'MyIconFont';
-    content: '\e901'; /* Unicode for the user icon */
-}
-
-.bb-settings::before {
-    font-family: 'MyIconFont';
-    content: '\e902'; /* Unicode for the settings icon */
-}
+.icon-home::before { content: '\e800'; } /* Home icon */
+.icon-user::before { content: '\e801'; } /* User icon */
+.icon-settings::before { content: '\e802'; } /* Settings icon */
