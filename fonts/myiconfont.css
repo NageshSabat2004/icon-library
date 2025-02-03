@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'MyIconFont';
+    src: url('myiconfont.woff2') format('woff2'),
+         url('myiconfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bb-home::before {
+    font-family: 'MyIconFont';
+    content: '\e900'; /* Unicode for the home icon */
+}
+
+.bb-user::before {
+    font-family: 'MyIconFont';
+    content: '\e901'; /* Unicode for the user icon */
+}
+
+.bb-settings::before {
+    font-family: 'MyIconFont';
+    content: '\e902'; /* Unicode for the settings icon */
+}
