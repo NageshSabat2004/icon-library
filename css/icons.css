@@ -1,24 +1,33 @@
-/* icons.css */
-.bb-home {
-    background-image: url('../icons/home.svg');
-    background-size: contain;
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+/* icon.css */
+.icon {
+  font-family: 'myiconfont'; /* Use the custom font */
+  font-size: 24px; /* Default size */
+  color: #000; /* Default color */
 }
 
-.bb-user {
-    background-image: url('../icons/user.svg');
-    background-size: contain;
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+/* Custom sizes */
+.icon-small {
+  font-size: 16px;
 }
 
-.bb-settings {
-    background-image: url('../icons/settings.svg');
-    background-size: contain;
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+.icon-large {
+  font-size: 32px;
+}
+
+/* Custom colors */
+.icon-red {
+  color: red;
+}
+
+.icon-green {
+  color: green;
+}
+
+/* Specific icon overrides */
+.icon-home {
+  color: #007bff; /* Blue color for home icon */
+}
+
+.icon-settings {
+  font-size: 28px; /* Larger size for settings icon */
 }
