@@ -6,7 +6,8 @@ A simple open-source icon library hosted on GitHub and served via jsDelivr.
 
 Include the CSS file in your HTML:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/your-username/icon-library@v1.0.0/css/icons.css">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/gh/your-username/icon-library@v1.0.0/css/icons.css">
 ```
 ```html
 <i class="bb-home"></i>
